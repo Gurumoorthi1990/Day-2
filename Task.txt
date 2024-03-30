@@ -1,0 +1,7 @@
+
+Difference between Documents and widows object:
+
+- window is the execution context and global object for that context's JavaScript
+- window is the main JavaScript object root, aka the global object in a browser, and it can also be treated as the root of the document object model. You can access it as window.
+- document contains the DOM, initialized by parsing HTML
+- The document object is your html, aspx, php, or other document that will be loaded into the browser. The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc.
